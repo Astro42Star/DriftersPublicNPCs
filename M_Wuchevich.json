@@ -1,0 +1,101 @@
+{
+  // Name of the character
+  "name": "M_Wuchevich",
+  
+  // Alias of the character
+  "alias": "The Cosmic Meme Warlord",
+  
+  // WHI placeholder for standard aspect
+  "WHI": "Medium humanoid, chaotic neutral",
+  
+  // Armor Class
+  "armorClass": 16,
+  
+  // Hit Points
+  "hitPoints": 150,
+  
+  // Speed in feet
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  
+  // Attributes
+  "attributes": {
+    "strength": 12,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 20,
+    "wisdom": 16,
+    "charisma": 22
+  },
+  
+  // Saving Throws
+  "savingThrows": {
+    "intelligence": 10,
+    "charisma": 11
+  },
+  
+  // Skills
+  "skills": {
+    "memeCrafting": 12,
+    "viralMarketing": 10,
+    "digitalCamouflage": 8
+  },
+  
+  // Damage Resistances
+  "damageResistances": [
+    "psychic",
+    "radiant",
+    "bludgeoning from non-magical weapons"
+  ],
+  
+  // Condition Immunities
+  "conditionImmunities": [
+    "charmed",
+    "frightened",
+    "confused"
+  ],
+  
+  // Senses
+  "senses": {
+    "darkvision": 60,
+    "passivePerception": 18
+  },
+  
+  // Languages
+  "languages": [
+    "Galactic Common",
+    "Binary",
+    "Telepathy 60 ft."
+  ],
+  
+  // Challenge Rating
+  "challengeRating": 14,
+  
+  // Special Traits
+  "specialTraits": {
+    "memeBlast": "Can unleash a barrage of memes that confuse and demoralize opponents, causing them to either laugh uncontrollably or debate the relevance of 90s internet culture.",
+    "goViral": "Can turn any event into a viral trend, causing enemies to become distracted by their own sudden fame, thus losing focus on combat.",
+    "trendsettersAura": "Anybody within a 20-foot radius of M_Wuchevich must make a Wisdom saving throw or find themselves compelled to start a new internet challenge or hashtag.",
+    "digitalCamouflage": "Can blend into any digital environment, becoming indistinguishable from the background noise of the internet.",
+    "memeSummoning": "Can call upon legendary internet figures or memes to aid in battle or conversation, like a legion of Wojaks, the Distracted Boyfriend, or even the rare and powerful 'Drake Hotline Bling' meme."
+  },
+  
+  // Actions
+  "actions": {
+    "multiattack": "M_Wuchevich makes two meme attacks.",
+    "memeBlast": {
+      "attackType": "ranged",
+      "toHit": 12,
+      "range": 60,
+      "target": "one target",
+      "damage": "20 (4d6 + 6) psychic damage"
+    },
+    "goViral": {
+      "uses": 3,
+      "effect": "M_Wuchevich can turn any event into a viral trend, causing enemies to become distracted by their own sudden fame, thus losing focus on combat."
+    },
+    "digitalCamouflage": "M_Wuchevich can blend into any digital environment, becoming indistinguishable from the background noise of the internet."
+  }
+}
