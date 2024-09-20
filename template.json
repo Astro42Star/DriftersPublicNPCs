@@ -1,0 +1,88 @@
+{
+  // Name of the character
+  "name": "Your NPC's Name Here",
+  
+  // WHI placeholder for standard aspect
+  "WHI": "Description of the NPC's general type (e.g., 'Medium humanoid, lawful good')",
+  
+  // Armor Class
+  "armorClass": 10,
+  
+  // Hit Points
+  "hitPoints": 0,
+  
+  // Speed in feet
+  "speed": {
+    "walk": 30,
+    "fly": 0,
+    "swim": 0,
+    "hover": false
+  },
+  
+  // Attributes
+  "attributes": {
+    "strength": 10,
+    "dexterity": 10,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  
+  // Saving Throws
+  "savingThrows": {
+    "strength": 0,
+    "dexterity": 0,
+    "constitution": 0,
+    "intelligence": 0,
+    "wisdom": 0,
+    "charisma": 0
+  },
+  
+  // Skills
+  "skills": {
+    "skillName1": 0,
+    "skillName2": 0
+  },
+  
+  // Damage Resistances
+  "damageResistances": [],
+  
+  // Condition Immunities
+  "conditionImmunities": [],
+  
+  // Senses
+  "senses": {
+    "passivePerception": 10,
+    "specialVision": 0
+  },
+  
+  // Languages
+  "languages": [
+    "Common"
+  ],
+  
+  // Challenge Rating
+  "challengeRating": 0,
+  
+  // Special Traits
+  "specialTraits": {
+    "traitName": "Description of the trait."
+  },
+  
+  // Actions
+  "actions": {
+    "multiattack": "Description of multiattack.",
+    "actionName": {
+      "attackType": "Type of attack (e.g., melee, ranged)",
+      "toHit": 0,
+      "range": 0,
+      "target": "Description of target",
+      "damage": "Damage description and formula"
+    },
+    "specialAction": {
+      "uses": 0,
+      "effect": "Description of the action's effect."
+    }
+  }
+}
